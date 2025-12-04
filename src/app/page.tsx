@@ -20,7 +20,7 @@ export default function LandingPage() {
       borderRadius="pill"
       contentWidth="small"
       sizing="medium"
-      background="gradientBars"
+      background="circleGradient"
       cardStyle="glass-flat"
       primaryButtonStyle="layered-depth"
       secondaryButtonStyle="outline"
@@ -29,14 +29,11 @@ export default function LandingPage() {
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal 
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764872355195-egwe0eju.jpg"
-          logoAlt="AI Bot for Websites Logo"
           brandName="WebAI"
           button={{
             text: "Get Started",
             href: "#contact"
           }}
-          className="sticky top-0 z-50"
-          buttonClassName="px-6 py-2 rounded-full"
         />
       </div>
 
