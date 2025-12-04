@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -65,7 +65,7 @@ export default function LandingPage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764872370667-lp11nhtt.jpg",
               imageAlt: "Neural Network Technology"
             }
-          ]
+          ]}
           ariaLabel="WebAI Hero Section with AI Chatbot Carousel"
           containerClassName="w-full"
           logoClassName="text-5xl md:text-7xl font-bold"
@@ -349,7 +349,7 @@ export default function LandingPage() {
                 { label: "Status", href: "/status" }
               ]
             }
-          ]
+          ]}
           ariaLabel="Site Footer"
         />
       </div>
