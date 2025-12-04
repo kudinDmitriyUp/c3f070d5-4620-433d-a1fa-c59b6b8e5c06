@@ -24,7 +24,6 @@ export default function LandingPage() {
       cardStyle="glass-flat"
       primaryButtonStyle="layered-depth"
       secondaryButtonStyle="outline"
-      showBlurBottom={true}
     >
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal 
